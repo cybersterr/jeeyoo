@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const INPUT_URL =
-  "https://m3u-86e.pages.dev/jtv-mb.json";
+  "https://raw.githubusercontent.com/cybersterr/jeeyo/refs/heads/main/output.json";
 
 const OUTPUT_FILE = "output.json";
 
@@ -17,48 +17,32 @@ async function main() {
 
   const raw = await res.json();
 
-  const result = raw.map((data) => {
-    const {
-      id,
-      name,
-      group,
-      logo,
-      mpd_url,
-      license_url,
-      headers
-    } = data;
+  const result = Object.entries(raw).map(([id, data]) => {
+    const { kid, key, url, group_title, tvg_logo, channel_name } = data;
 
-    const url = mpd_url;
+    // Name used ONLY for the stream URL parameter (e.g., CNBC_Tv18_Prime_HD)
+    let rawName = url.split("/bpk-tv/")[1].split("/")[0];
+    rawName = rawName.replace("_BTS", "");
 
-    // Name for URL param (same logic as before)
-    let rawName = "";
-    if (url.includes("/bpk-tv/")) {
-      rawName = url.split("/bpk-tv/")[1].split("/")[0];
-      rawName = rawName.replace("_BTS", "");
-    } else {
-      rawName = name.replace(/ /g, "_");
-    }
-
-    const displayName = name || rawName.replace(/_/g, " ");
+    // Display name comes directly from the JSON 'channel_name' field
+    const displayName = channel_name || rawName.replace(/_/g, " ");
 
     // Extract cookie
     const cookieMatch = url.match(/__hdnea__=([^&]+)/);
-    const cookie = cookieMatch
-      ? `__hdnea__=${cookieMatch[1]}`
-      : headers?.cookie || "";
+    const cookie = cookieMatch ? `__hdnea__=${cookieMatch[1]}` : "";
 
     const finalUrl =
       `${url.split("?")[0]}` +
       `?name=${encodeURIComponent(rawName)}` +
-      `&keyId=${id}` +
-      `&key=${encodeURIComponent(license_url)}` +
+      `&keyId=${kid}` +
+      `&key=${key}` +
       (cookie ? `&cookie=${cookie}` : "");
 
     return {
       name: displayName,
       id,
-      logo,
-      group,
+      logo: tvg_logo,      // Use logo URL from JSON
+      group: group_title,  // Use group title from JSON
       link: DASH_PROXY + finalUrl
     };
   });

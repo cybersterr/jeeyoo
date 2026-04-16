@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const INPUT_URL =
-  "https://raw.githubusercontent.com/cybersterr/jeeyo/main/stream.json";
+  "https://m3u-86e.pages.dev/jtv-mb.json";
 
 const OUTPUT_FILE = "output.json";
 

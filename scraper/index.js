@@ -17,32 +17,48 @@ async function main() {
 
   const raw = await res.json();
 
-  const result = Object.entries(raw).map(([id, data]) => {
-    const { kid, key, url, group_title, tvg_logo, channel_name } = data;
+  const result = raw.map((data) => {
+    const {
+      id,
+      name,
+      group,
+      logo,
+      mpd_url,
+      license_url,
+      headers
+    } = data;
 
-    // Name used ONLY for the stream URL parameter (e.g., CNBC_Tv18_Prime_HD)
-    let rawName = url.split("/bpk-tv/")[1].split("/")[0];
-    rawName = rawName.replace("_BTS", "");
+    const url = mpd_url;
 
-    // Display name comes directly from the JSON 'channel_name' field
-    const displayName = channel_name || rawName.replace(/_/g, " ");
+    // Name for URL param (same logic as before)
+    let rawName = "";
+    if (url.includes("/bpk-tv/")) {
+      rawName = url.split("/bpk-tv/")[1].split("/")[0];
+      rawName = rawName.replace("_BTS", "");
+    } else {
+      rawName = name.replace(/ /g, "_");
+    }
+
+    const displayName = name || rawName.replace(/_/g, " ");
 
     // Extract cookie
     const cookieMatch = url.match(/__hdnea__=([^&]+)/);
-    const cookie = cookieMatch ? `__hdnea__=${cookieMatch[1]}` : "";
+    const cookie = cookieMatch
+      ? `__hdnea__=${cookieMatch[1]}`
+      : headers?.cookie || "";
 
     const finalUrl =
       `${url.split("?")[0]}` +
       `?name=${encodeURIComponent(rawName)}` +
-      `&keyId=${kid}` +
-      `&key=${key}` +
+      `&keyId=${id}` +
+      `&key=${encodeURIComponent(license_url)}` +
       (cookie ? `&cookie=${cookie}` : "");
 
     return {
       name: displayName,
       id,
-      logo: tvg_logo,      // Use logo URL from JSON
-      group: group_title,  // Use group title from JSON
+      logo,
+      group,
       link: DASH_PROXY + finalUrl
     };
   });

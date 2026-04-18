@@ -2807,7 +2807,7 @@
         "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Gemini_Music_HD_MOB/WDVLive/index.mpd?name=Gemini_Music_HD_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
     },
     {
-        "name": "Gemini Movies HD",
+        "name": "Sun Gemini Movies HD",
         "id": "899",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Gemini_Movies_HD.png",
         "group": "Movies",
@@ -7889,11 +7889,25 @@
         "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Pravah_Picture_HD_MOB/WDVLive/index.mpd?name=Star_Pravah_Picture_HD_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
     },
     {
+        "name": "Vijay Super HD",
+        "id": "3266",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Super_HD.png",
+        "group": "Entertainment",
+        "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Super_HD_MOB/WDVLive/index.mpd?name=Vijay_Super_HD_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
+    },
+    {
         "name": "Star Kiran",
         "id": "3267",
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Kiran.png",
         "group": "Entertainment",
         "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Kiran_MOB/WDVLive/index.mpd?name=Star_Kiran_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
+    },
+    {
+        "name": "Vijay Takkar",
+        "id": "3269",
+        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
+        "group": "Entertainment",
+        "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Takkar_MOB/WDVLive/index.mpd?name=Vijay_Takkar_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
     },
     {
         "name": "Sony MAX1",
@@ -7985,13 +7999,6 @@
         "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Gold.png",
         "group": "Entertainment",
         "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Maa_Gold_MOB/WDVLive/index.mpd?name=Maa_Gold_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
-    },
-    {
-        "name": "Vijay Takkar",
-        "id": "41507",
-        "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Takkar.png",
-        "group": "Entertainment",
-        "link": "https://dash.vodep39240327.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Takkar_MOB/WDVLive/index.mpd?name=Vijay_Takkar_MOB&keyId=https&key=//mini.allinonereborn.fun/key/key.php?id&cookie=__hdnea__=st=1776499231~exp=1776520831~acl=/*~hmac=fb7e4d0d927091e6c8ec6864ac112162b176d35f5b8be43fd3a701fdf73015cb"
     },
     {
         "name": "Nat Geo Wild",

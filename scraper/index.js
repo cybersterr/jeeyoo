@@ -20,11 +20,19 @@ async function main() {
   const result = Object.entries(raw).map(([id, data]) => {
     const { kid, key, url, group_title, tvg_logo, channel_name } = data;
 
-    // Name used ONLY for the stream URL parameter (e.g., CNBC_Tv18_Prime_HD)
-    let rawName = url.split("/bpk-tv/")[1].split("/")[0];
-    rawName = rawName.replace("_BTS", "");
+    // Name used ONLY for the stream URL parameter
+    let rawName;
 
-    // Display name comes directly from the JSON 'channel_name' field
+    if (url.includes("/bpk-tv/")) {
+      rawName = url.split("/bpk-tv/")[1].split("/")[0];
+      rawName = rawName.replace("_BTS", "");
+    } else {
+      rawName = channel_name
+        ? channel_name.replace(/\s+/g, "_")
+        : id.replace(/\s+/g, "_");
+    }
+
+    // Display name comes directly from JSON channel_name
     const displayName = channel_name || rawName.replace(/_/g, " ");
 
     // Extract cookie
@@ -34,15 +42,15 @@ async function main() {
     const finalUrl =
       `${url.split("?")[0]}` +
       `?name=${encodeURIComponent(rawName)}` +
-      `&keyId=${kid}` +
+      `&keyId=${kid || ""}` +
       `&key=${key}` +
       (cookie ? `&cookie=${cookie}` : "");
 
     return {
       name: displayName,
       id,
-      logo: tvg_logo,      // Use logo URL from JSON
-      group: group_title,  // Use group title from JSON
+      logo: tvg_logo,
+      group: group_title,
       link: DASH_PROXY + finalUrl
     };
   });

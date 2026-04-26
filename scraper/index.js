@@ -5,7 +5,8 @@ const INPUT_URL =
 
 const OUTPUT_FILE = "output.json";
 
-const DASH_PROXY = "https://dash.vodep39240327.workers.dev/?url=";
+const DASH_PROXY = "https://pasteking.u0k.workers.dev/k22jk.html/?url=";
+const EPG_URL = "https://avkb.short.gy/jioepg.xml.gz";
 
 async function main() {
   console.log("📥 Fetching remote stream.json...");
@@ -17,49 +18,74 @@ async function main() {
 
   const raw = await res.json();
 
-  const result = Object.entries(raw).map(([id, data]) => {
-    const { kid, key, url, group_title, tvg_logo, channel_name } = data;
+  // New structure support
+  const channels = raw.channels || {};
 
-    // Name used ONLY for the stream URL parameter
-    let rawName;
+  const result = {
+    playlist_info: {
+      extm3u: true,
+      url_tvg: EPG_URL
+    },
+    channels: Object.entries(channels).map(([id, data]) => {
+      const {
+        kid,
+        key,
+        url,
+        group_title,
+        tvg_logo,
+        channel_name
+      } = data;
 
-    if (url.includes("/bpk-tv/")) {
-      rawName = url.split("/bpk-tv/")[1].split("/")[0];
-      rawName = rawName.replace("_BTS", "");
-    } else {
-      rawName = channel_name
-        ? channel_name.replace(/\s+/g, "_")
-        : id.replace(/\s+/g, "_");
-    }
+      // Name used only in proxy URL
+      let rawName;
 
-    // Display name comes directly from JSON channel_name
-    const displayName = channel_name || rawName.replace(/_/g, " ");
+      if (url.includes("/bpk-tv/")) {
+        rawName = url.split("/bpk-tv/")[1].split("/")[0];
+        rawName = rawName.replace("_BTS", "");
+      } else {
+        rawName = channel_name
+          ? channel_name.replace(/\s+/g, "_")
+          : id.replace(/\s+/g, "_");
+      }
 
-    // Extract cookie
-    const cookieMatch = url.match(/__hdnea__=([^&]+)/);
-    const cookie = cookieMatch ? `__hdnea__=${cookieMatch[1]}` : "";
+      // Display name
+      const displayName = channel_name || rawName.replace(/_/g, " ");
 
-    const finalUrl =
-      `${url.split("?")[0]}` +
-      `?name=${encodeURIComponent(rawName)}` +
-      `&keyId=${kid || ""}` +
-      `&key=${key}` +
-      (cookie ? `&cookie=${cookie}` : "");
+      // Extract cookie
+      const cookieMatch = url.match(/__hdnea__=([^&]+)/);
+      const cookie = cookieMatch
+        ? `__hdnea__=${cookieMatch[1]}`
+        : "";
 
-    return {
-      name: displayName,
-      id,
-      logo: tvg_logo,
-      group: group_title,
-      link: DASH_PROXY + finalUrl
-    };
-  });
+      const finalUrl =
+        `${url.split("?")[0]}` +
+        `?name=${encodeURIComponent(rawName)}` +
+        `&keyId=${kid || ""}` +
+        `&key=${key || ""}` +
+        (cookie ? `&cookie=${encodeURIComponent(cookie)}` : "");
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 4));
+      return {
+        name: displayName,
+        id,
+        logo: tvg_logo,
+        group: group_title,
+        license_type: "clearkey",
+        kid: kid || "",
+        key: key || "",
+        link: DASH_PROXY + encodeURIComponent(finalUrl)
+      };
+    })
+  };
+
+  fs.writeFileSync(
+    OUTPUT_FILE,
+    JSON.stringify(result, null, 4)
+  );
+
   console.log("✅ output.json generated successfully");
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error("❌ Error:", err.message);
   process.exit(1);
 });

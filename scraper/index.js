@@ -18,7 +18,6 @@ async function main() {
 
   const raw = await res.json();
 
-  // New structure support
   const channels = raw.channels || {};
 
   const result = {
@@ -36,7 +35,6 @@ async function main() {
         channel_name
       } = data;
 
-      // Name used only in proxy URL
       let rawName;
 
       if (url.includes("/bpk-tv/")) {
@@ -48,10 +46,9 @@ async function main() {
           : id.replace(/\s+/g, "_");
       }
 
-      // Display name
-      const displayName = channel_name || rawName.replace(/_/g, " ");
+      const displayName =
+        channel_name || rawName.replace(/_/g, " ");
 
-      // Extract cookie
       const cookieMatch = url.match(/__hdnea__=([^&]+)/);
       const cookie = cookieMatch
         ? `__hdnea__=${cookieMatch[1]}`
@@ -69,9 +66,6 @@ async function main() {
         id,
         logo: tvg_logo,
         group: group_title,
-        license_type: "clearkey",
-        kid: kid || "",
-        key: key || "",
         link: DASH_PROXY + encodeURIComponent(finalUrl)
       };
     })

@@ -1,8 +1,4 @@
 {
-    "playlist_info": {
-        "extm3u": true,
-        "url_tvg": "https://avkb.short.gy/jioepg.xml.gz"
-    },
     "channels": [
         {
             "name": "CNBC TV18 Prime",

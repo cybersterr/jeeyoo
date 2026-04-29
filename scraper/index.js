@@ -6,7 +6,6 @@ const INPUT_URL =
 const OUTPUT_FILE = "output.json";
 
 const DASH_PROXY = "https://pasteking.u0k.workers.dev/k22jk.html/?url=";
-const EPG_URL = "https://avkb.short.gy/jioepg.xml.gz";
 
 async function main() {
   console.log("📥 Fetching remote stream.json...");
@@ -21,10 +20,6 @@ async function main() {
   const channels = raw.channels || {};
 
   const result = {
-    playlist_info: {
-      extm3u: true,
-      url_tvg: EPG_URL
-    },
     channels: Object.entries(channels).map(([id, data]) => {
       const {
         kid,

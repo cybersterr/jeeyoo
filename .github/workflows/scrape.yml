@@ -27,11 +27,15 @@ jobs:
           cd scraper
           npm install
 
-      # ✅ ADDED: ensure fetch works properly in Node
-      - name: Enable fetch (Node 20 safe fallback)
+      # ✅ ADDED: pull BEFORE script runs (fixes rebase error)
+      - name: Pre-pull latest changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd scraper
-          npm install node-fetch
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git pull origin main --rebase
 
       - name: Run fetch script
         run: |
@@ -51,10 +55,9 @@ jobs:
           cp scraper/output.json output.json
           git add output.json
 
-          # ✅ FIXED: safer change detection
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to push."
-          else
+          if ! git diff-index --quiet HEAD; then
             git commit -m "📥 Updated output.json"
             git push origin main
+          else
+            echo "No changes to push."
           fi

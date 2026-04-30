@@ -50,15 +50,15 @@ async function main() {
 
       const cleanMpd = url.split("?")[0];
 
-      // ✅ FIXED HERE (NO encodeURIComponent)
       let finalLink =
         `${DASH_PROXY}?url=${cleanMpd}` +
         `&keyId=${kid || ""}` +
         `&key=${key || ""}` +
         `&name=${encodeURIComponent(displayName)}`;
 
+      // ✅ FIXED HERE (NO encoding)
       if (cookie) {
-        finalLink += `&cookie=${encodeURIComponent(cookie)}`;
+        finalLink += `&cookie=${cookie}`;
       }
 
       return {

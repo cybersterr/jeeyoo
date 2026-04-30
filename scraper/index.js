@@ -5,7 +5,7 @@ const INPUT_URL =
 
 const OUTPUT_FILE = "output.json";
 
-const DASH_PROXY = "https://pasteking.u0k.workers.dev/k22jk.html/";
+const DASH_PROXY = "https://dashproxy.droozy.workers.dev/";
 
 async function main() {
   console.log("📥 Fetching remote stream.json...");

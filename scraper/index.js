@@ -5,7 +5,7 @@ const INPUT_URL =
 
 const OUTPUT_FILE = "output.json";
 
-const DASH_PROXY = "https://pasteking.u0k.workers.dev/k22jk.html/?url=";
+const DASH_PROXY = "https://pasteking.u0k.workers.dev/k22jk.html/";
 
 async function main() {
   console.log("📥 Fetching remote stream.json...");
@@ -16,7 +16,6 @@ async function main() {
   }
 
   const raw = await res.json();
-
   const channels = raw.channels || {};
 
   const result = {
@@ -44,24 +43,32 @@ async function main() {
       const displayName =
         channel_name || rawName.replace(/_/g, " ");
 
+      // ✅ Extract cookie
       const cookieMatch = url.match(/__hdnea__=([^&]+)/);
       const cookie = cookieMatch
         ? `__hdnea__=${cookieMatch[1]}`
         : "";
 
-      const finalUrl =
-        `${url.split("?")[0]}` +
-        `?name=${encodeURIComponent(rawName)}` +
+      // ✅ Clean MPD URL (NO params inside)
+      const cleanMpd = url.split("?")[0];
+
+      // ✅ Build FINAL LINK (correct format)
+      let finalLink =
+        `${DASH_PROXY}?url=${encodeURIComponent(cleanMpd)}` +
         `&keyId=${kid || ""}` +
         `&key=${key || ""}` +
-        (cookie ? `&cookie=${encodeURIComponent(cookie)}` : "");
+        `&name=${encodeURIComponent(displayName)}`;
+
+      if (cookie) {
+        finalLink += `&cookie=${encodeURIComponent(cookie)}`;
+      }
 
       return {
         name: displayName,
         id,
         logo: tvg_logo,
         group: group_title,
-        link: DASH_PROXY + encodeURIComponent(finalUrl)
+        link: finalLink
       };
     })
   };

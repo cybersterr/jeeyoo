@@ -43,18 +43,16 @@ async function main() {
       const displayName =
         channel_name || rawName.replace(/_/g, " ");
 
-      // ✅ Extract cookie
       const cookieMatch = url.match(/__hdnea__=([^&]+)/);
       const cookie = cookieMatch
         ? `__hdnea__=${cookieMatch[1]}`
         : "";
 
-      // ✅ Clean MPD URL (NO params inside)
       const cleanMpd = url.split("?")[0];
 
-      // ✅ Build FINAL LINK (correct format)
+      // ✅ FIXED HERE (NO encodeURIComponent)
       let finalLink =
-        `${DASH_PROXY}?url=${encodeURIComponent(cleanMpd)}` +
+        `${DASH_PROXY}?url=${cleanMpd}` +
         `&keyId=${kid || ""}` +
         `&key=${key || ""}` +
         `&name=${encodeURIComponent(displayName)}`;

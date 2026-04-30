@@ -27,6 +27,12 @@ jobs:
           cd scraper
           npm install
 
+      # ✅ ADDED: ensure fetch works properly in Node
+      - name: Enable fetch (Node 20 safe fallback)
+        run: |
+          cd scraper
+          npm install node-fetch
+
       - name: Run fetch script
         run: |
           cd scraper
@@ -45,9 +51,10 @@ jobs:
           cp scraper/output.json output.json
           git add output.json
 
-          if ! git diff-index --quiet HEAD; then
+          # ✅ FIXED: safer change detection
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to push."
+          else
             git commit -m "📥 Updated output.json"
             git push origin main
-          else
-            echo "No changes to push."
           fi

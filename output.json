@@ -40,7 +40,7 @@
             "id": "154",
             "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB.png",
             "group": "Entertainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_SAB_MOB/WDVLive/index.mpd&keyId=ba4d9b38517552de9654d3652d27933b&key=31e7cbf3d289d3116386457ed8bac3a2&name=Sony%20SAB%20SD&cookie=__hdnea__=st=1778077762~exp=1778099362~acl=/*~hmac=96e2d6cc0f2fa8d5927bd5506c51af59c95f48a30c0a66c8c1650a41bf18a421"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_SAB_MOB/WDVLive/index.mpd&keyId=ba4d9b38517552de9654d3652d27933b&key=31e7cbf3d289d3116386457ed8bac3a2&name=Sony%20SAB%20SD&cookie=__hdnea__=st=1778112036~exp=1778133636~acl=/*~hmac=d25043e9d4e7c6540a8112fbd63b384a15fed8cd53b2ae6ddaa651d806a71e38"
         },
         {
             "name": "Sony Ten 5 HD",
@@ -570,9 +570,9 @@
         {
             "name": "Sony SAB HD",
             "id": "471",
-            "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySAB.png",
+            "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SonySAB.png",
             "group": "Entertainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/SonySAB_MOB/WDVLive/index.mpd&keyId=f223cf2122d7510da9fcec6e523ffba1&key=c55848470f58d3bd934fbfe844522b0e&name=Sony%20SAB%20HD&cookie=__hdnea__=st=1778077762~exp=1778099362~acl=/*~hmac=96e2d6cc0f2fa8d5927bd5506c51af59c95f48a30c0a66c8c1650a41bf18a421"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvmblive.cdn.jio.com/bpk-tv/SonySAB_MOB/WDVLive/index.mpd&keyId=f223cf2122d7510da9fcec6e523ffba1&key=c55848470f58d3bd934fbfe844522b0e&name=Sony%20SAB%20HD&cookie=__hdnea__=st=1778112036~exp=1778133636~acl=/*~hmac=d25043e9d4e7c6540a8112fbd63b384a15fed8cd53b2ae6ddaa651d806a71e38"
         },
         {
             "name": "And TV HD",

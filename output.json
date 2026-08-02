@@ -565,7 +565,7 @@
             "id": "472",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/AndTVHD.png",
             "group": "Entertainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785669908~exp=1785691508~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=56f8579ce4f2e5c86daa6b17b16bcc2ba26a07e64801453a7e6a984fb4ae3bf5&keyId=3698f70a682b503599cbc0fcae1f4df4&key=91a7ebf70d1fd76f59b9970c9525dad7&name=And%20TV%20HD&cookie=__hdnea__=st=1785669908~exp=1785691508~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=56f8579ce4f2e5c86daa6b17b16bcc2ba26a07e64801453a7e6a984fb4ae3bf5"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785691830~exp=1785713430~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=a8dee0417d4d8ec5cb2c4b146fb706f89a0a6011af4324425ea39e0c7e635a03&keyId=3698f70a682b503599cbc0fcae1f4df4&key=91a7ebf70d1fd76f59b9970c9525dad7&name=And%20TV%20HD&cookie=__hdnea__=st=1785691830~exp=1785713430~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=a8dee0417d4d8ec5cb2c4b146fb706f89a0a6011af4324425ea39e0c7e635a03"
         },
         {
             "name": "Anmol TV",
@@ -2329,7 +2329,7 @@
             "id": "821",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png",
             "group": "Infotainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785668707~exp=1785690307~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=bb7cd403e3d1efabd9ab2f03bb4eeb7a2a3e02432befaa76e6db1984758a3337&keyId=0d533dd92ca057ce85910fbb98be77d5&key=442690c7c5852ca7c63b63d483ab6bc3&name=Sony%20BBC%20Earth%20HD&cookie=__hdnea__=st=1785668707~exp=1785690307~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=bb7cd403e3d1efabd9ab2f03bb4eeb7a2a3e02432befaa76e6db1984758a3337"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785690311~exp=1785711911~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=2879307738073e8ee8a91b73d458149cdf1dc7dbfa68e78a805ce4f85dd87e85&keyId=0d533dd92ca057ce85910fbb98be77d5&key=442690c7c5852ca7c63b63d483ab6bc3&name=Sony%20BBC%20Earth%20HD&cookie=__hdnea__=st=1785690311~exp=1785711911~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=2879307738073e8ee8a91b73d458149cdf1dc7dbfa68e78a805ce4f85dd87e85"
         },
         {
             "name": "Puthu Yugam",
@@ -3876,14 +3876,14 @@
             "id": "1332",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png",
             "group": "English",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785669323~exp=1785690923~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=efbe749f248470505693facec4363112be64b15e3f0b53b93471cc1fe931a15a&keyId=999ce48f3e4d5de8b72c34f213176d9e&key=13e3ca891d32d158d8108007fef88388&name=Nat%20Geo%20Wild%20HD&cookie=__hdnea__=st=1785669323~exp=1785690923~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=efbe749f248470505693facec4363112be64b15e3f0b53b93471cc1fe931a15a"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785691218~exp=1785712818~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=0513f780e82e707bccf05f4a02a98bbb66925013fc72954fc5ef0437ae1ed244&keyId=999ce48f3e4d5de8b72c34f213176d9e&key=13e3ca891d32d158d8108007fef88388&name=Nat%20Geo%20Wild%20HD&cookie=__hdnea__=st=1785691218~exp=1785712818~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=0513f780e82e707bccf05f4a02a98bbb66925013fc72954fc5ef0437ae1ed244"
         },
         {
             "name": "National Geographic HD",
             "id": "1335",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png",
             "group": "English",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785669326~exp=1785690926~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=b4842efa32084e91bc90ae0b821cb92404624fbbce82c87d3fc4aea38d795a23&keyId=c3af1f24c63a5cc2bf71921eed28d1ff&key=80f4de40d7603bd8e45fe41db53f5198&name=National%20Geographic%20HD&cookie=__hdnea__=st=1785669326~exp=1785690926~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=b4842efa32084e91bc90ae0b821cb92404624fbbce82c87d3fc4aea38d795a23"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785691221~exp=1785712821~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=bc00d5297233e967e86827ca45f9841927f07263163f758960a0fce2bfaa9091&keyId=c3af1f24c63a5cc2bf71921eed28d1ff&key=80f4de40d7603bd8e45fe41db53f5198&name=National%20Geographic%20HD&cookie=__hdnea__=st=1785691221~exp=1785712821~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=bc00d5297233e967e86827ca45f9841927f07263163f758960a0fce2bfaa9091"
         },
         {
             "name": "RT India",

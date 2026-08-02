@@ -54,7 +54,7 @@
             "id": "164",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png",
             "group": "English",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785602109~exp=1785623709~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=a1f23c1c7c9dd34c03af391cc2423d24321ae8f929fcc52fb2177e794620cba6&keyId=157cd1bd71a256fe8ab763ba280320e5&key=6befde8b90b6926423cc83775b8dcb59&name=Travelxp%20HD&cookie=__hdnea__=st=1785602109~exp=1785623709~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=a1f23c1c7c9dd34c03af391cc2423d24321ae8f929fcc52fb2177e794620cba6"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785624006~exp=1785645606~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=0a1d0d973d4974c0531e94739ffa27068a45bf48309d7cae54bedd3625324d7e&keyId=157cd1bd71a256fe8ab763ba280320e5&key=6befde8b90b6926423cc83775b8dcb59&name=Travelxp%20HD&cookie=__hdnea__=st=1785624006~exp=1785645606~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=0a1d0d973d4974c0531e94739ffa27068a45bf48309d7cae54bedd3625324d7e"
         },
         {
             "name": "Zee Cinema HD",
@@ -292,7 +292,7 @@
             "id": "362",
             "logo": "https://img.media.jio.com/tvpimages/13/81/302112_1749665154709_l_medium.jpg",
             "group": "Sports",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785603656~exp=1785625256~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=904ae2ee7bb1bb84c7d5ec38b956f58e8108a636ccc6d8d48548ce226a895b8d&keyId=8ea9b607549252068e260a5f4d7dd321&key=350c0aaffedf51cc1502e9543c7c885e&name=Star%20Sports%201%20Hindi&cookie=__hdnea__=st=1785603656~exp=1785625256~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=904ae2ee7bb1bb84c7d5ec38b956f58e8108a636ccc6d8d48548ce226a895b8d"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785621640~exp=1785643240~acl=/*~hmac=61bdcb586e8840679c6e2d467eba27fbadb501f2c1f6d1259b36755b212c7e03&keyId=8ea9b607549252068e260a5f4d7dd321&key=350c0aaffedf51cc1502e9543c7c885e&name=Star%20Sports%201%20Hindi&cookie=__hdnea__=st=1785621640~exp=1785643240~acl=/*~hmac=61bdcb586e8840679c6e2d467eba27fbadb501f2c1f6d1259b36755b212c7e03"
         },
         {
             "name": "Star Vijay HD",
@@ -565,7 +565,7 @@
             "id": "472",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/AndTVHD.png",
             "group": "Entertainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785604221~exp=1785625821~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=e6d3306b08a62f19a570bcee8e7b844e00ec94e56c0f07993ba37ea9bd27ee93&keyId=3698f70a682b503599cbc0fcae1f4df4&key=91a7ebf70d1fd76f59b9970c9525dad7&name=And%20TV%20HD&cookie=__hdnea__=st=1785604221~exp=1785625821~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=e6d3306b08a62f19a570bcee8e7b844e00ec94e56c0f07993ba37ea9bd27ee93"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785626410~exp=1785648010~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=96f25eb3f9394f7f4f4b2ca9a60c77ec69d4124abef05f0b55270baf26dd52ce&keyId=3698f70a682b503599cbc0fcae1f4df4&key=91a7ebf70d1fd76f59b9970c9525dad7&name=And%20TV%20HD&cookie=__hdnea__=st=1785626410~exp=1785648010~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=96f25eb3f9394f7f4f4b2ca9a60c77ec69d4124abef05f0b55270baf26dd52ce"
         },
         {
             "name": "Anmol TV",
@@ -999,7 +999,7 @@
             "id": "562",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP.png",
             "group": "Lifestyle",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785602742~exp=1785624342~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=8626fc3113ff2074a3b9fabbc528579c0af543a0f6e27bc4d9b31c7e0bfe087a&keyId=ad093fffe09f50cdbc1afdea17c551e3&key=939685a7d928a4e9444ec4c47309703c&name=Travelxp%20HD%20Hindi&cookie=__hdnea__=st=1785602742~exp=1785624342~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=8626fc3113ff2074a3b9fabbc528579c0af543a0f6e27bc4d9b31c7e0bfe087a"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785624605~exp=1785646205~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=3cf286fe6c3871cd86734efc90e8af1c18745879521c1f7f9100ac8653754dac&keyId=ad093fffe09f50cdbc1afdea17c551e3&key=939685a7d928a4e9444ec4c47309703c&name=Travelxp%20HD%20Hindi&cookie=__hdnea__=st=1785624605~exp=1785646205~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=3cf286fe6c3871cd86734efc90e8af1c18745879521c1f7f9100ac8653754dac"
         },
         {
             "name": "Kaumudy TV",
@@ -2329,7 +2329,7 @@
             "id": "821",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyBBCEarthHin.png",
             "group": "Infotainment",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785602746~exp=1785624346~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=2772d4c50051dbe743466e1afbfa4c14ae79e7fa548c7f479606ab8d41ba618e&keyId=0d533dd92ca057ce85910fbb98be77d5&key=442690c7c5852ca7c63b63d483ab6bc3&name=Sony%20BBC%20Earth%20HD&cookie=__hdnea__=st=1785602746~exp=1785624346~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=2772d4c50051dbe743466e1afbfa4c14ae79e7fa548c7f479606ab8d41ba618e"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785624625~exp=1785646225~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=e0a20e31a9a2827763a733d7d3fd0c5b826532c2303613a0944117dcf33a100f&keyId=0d533dd92ca057ce85910fbb98be77d5&key=442690c7c5852ca7c63b63d483ab6bc3&name=Sony%20BBC%20Earth%20HD&cookie=__hdnea__=st=1785624625~exp=1785646225~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=e0a20e31a9a2827763a733d7d3fd0c5b826532c2303613a0944117dcf33a100f"
         },
         {
             "name": "Puthu Yugam",
@@ -3274,7 +3274,7 @@
             "id": "1108",
             "logo": "https://img.media.jio.com/tvpimages/5/6/301982_1749665314605_l_medium.jpg",
             "group": "Sports",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785602135~exp=1785623735~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=8fd33a85829d942168567ba85e1ecbfe0353c33ad3cf2fd64e000b0aeeec9f81&keyId=400131994b445d8c8817202248760fda&key=2d56cb6f07a75b9aff165d534ae2bfc4&name=Star%20Sports%201%20Hindi%20HD&cookie=__hdnea__=st=1785602135~exp=1785623735~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=8fd33a85829d942168567ba85e1ecbfe0353c33ad3cf2fd64e000b0aeeec9f81"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785621640~exp=1785643240~acl=/*~hmac=61bdcb586e8840679c6e2d467eba27fbadb501f2c1f6d1259b36755b212c7e03&keyId=400131994b445d8c8817202248760fda&key=2d56cb6f07a75b9aff165d534ae2bfc4&name=Star%20Sports%201%20Hindi%20HD&cookie=__hdnea__=st=1785621640~exp=1785643240~acl=/*~hmac=61bdcb586e8840679c6e2d467eba27fbadb501f2c1f6d1259b36755b212c7e03"
         },
         {
             "name": "Star Sports 2 HD",
@@ -3876,14 +3876,14 @@
             "id": "1332",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png",
             "group": "English",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785603638~exp=1785625238~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=123b806f7f0fba93167c53e8678733e1a67189312cb6a69f1ce5ee4ab78d3e3c&keyId=999ce48f3e4d5de8b72c34f213176d9e&key=13e3ca891d32d158d8108007fef88388&name=Nat%20Geo%20Wild%20HD&cookie=__hdnea__=st=1785603638~exp=1785625238~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=123b806f7f0fba93167c53e8678733e1a67189312cb6a69f1ce5ee4ab78d3e3c"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785625525~exp=1785647125~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=9d5ba816d9033a6dff4790a958949bcc7788452c12f1a16897afbdf9901ed676&keyId=999ce48f3e4d5de8b72c34f213176d9e&key=13e3ca891d32d158d8108007fef88388&name=Nat%20Geo%20Wild%20HD&cookie=__hdnea__=st=1785625525~exp=1785647125~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=9d5ba816d9033a6dff4790a958949bcc7788452c12f1a16897afbdf9901ed676"
         },
         {
             "name": "National Geographic HD",
             "id": "1335",
             "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png",
             "group": "English",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785603647~exp=1785625247~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=994b3654ad4603fe6354df06c4f92e2ff28cf349e8d69a641006ec3dcbea3e35&keyId=c3af1f24c63a5cc2bf71921eed28d1ff&key=80f4de40d7603bd8e45fe41db53f5198&name=National%20Geographic%20HD&cookie=__hdnea__=st=1785603647~exp=1785625247~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=994b3654ad4603fe6354df06c4f92e2ff28cf349e8d69a641006ec3dcbea3e35"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|Cookie=__hdnea__=st=1785625527~exp=1785647127~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=309b42d5e8fa3fefceee93adc1dfd49a873dd24285dab460e44d8b3068da8d6e&keyId=c3af1f24c63a5cc2bf71921eed28d1ff&key=80f4de40d7603bd8e45fe41db53f5198&name=National%20Geographic%20HD&cookie=__hdnea__=st=1785625527~exp=1785647127~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=309b42d5e8fa3fefceee93adc1dfd49a873dd24285dab460e44d8b3068da8d6e"
         },
         {
             "name": "RT India",

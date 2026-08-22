@@ -2,7 +2,7 @@ name: Fetch and Update Stream JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Every 10 minutes
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,36 +11,33 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
           ref: main
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Install dependencies
-        run: |
-          cd scraper
-          npm install
+        working-directory: scraper
+        run: npm install
 
-      # ✅ ADDED: pull BEFORE script runs (fixes rebase error)
       - name: Pre-pull latest changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git pull origin main --rebase
 
       - name: Run fetch script
-        run: |
-          cd scraper
-          npm start
+        working-directory: scraper
+        run: npm start
 
       - name: Commit and push output.json
         env:
@@ -49,13 +46,12 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git pull --rebase origin main
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
           cp scraper/output.json output.json
           git add output.json
 
-          if ! git diff-index --quiet HEAD; then
+          if ! git diff --cached --quiet; then
             git commit -m "📥 Updated output.json"
             git push origin main
           else

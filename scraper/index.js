@@ -11,61 +11,49 @@ async function main() {
   console.log("📥 Fetching remote stream.json...");
 
   const res = await fetch(INPUT_URL);
+
   if (!res.ok) {
     throw new Error(`Failed to fetch JSON: ${res.status}`);
   }
 
-  const raw = await res.json();
-  const channels = raw.channels || {};
+  const channels = await res.json();
+
+  if (!Array.isArray(channels)) {
+    throw new Error("Input JSON is not an array");
+  }
 
   const result = {
-    channels: Object.entries(channels).map(([id, data]) => {
+    channels: channels.map((data) => {
       const {
-        kid,
+        name,
+        id,
+        category,
+        keyId,
         key,
+        logo,
         url,
-        group_title,
-        tvg_logo,
-        channel_name
+        cookie
       } = data;
 
-      let rawName;
-
-      if (url.includes("/bpk-tv/")) {
-        rawName = url.split("/bpk-tv/")[1].split("/")[0];
-        rawName = rawName.replace("_BTS", "");
-      } else {
-        rawName = channel_name
-          ? channel_name.replace(/\s+/g, "_")
-          : id.replace(/\s+/g, "_");
-      }
-
-      const displayName =
-        channel_name || rawName.replace(/_/g, " ");
-
-      const cookieMatch = url.match(/__hdnea__=([^&]+)/);
-      const cookie = cookieMatch
-        ? `__hdnea__=${cookieMatch[1]}`
+      const cleanMpd = url
+        ? url.split("?")[0]
         : "";
-
-      const cleanMpd = url.split("?")[0];
 
       let finalLink =
         `${DASH_PROXY}?url=${cleanMpd}` +
-        `&keyId=${kid || ""}` +
+        `&keyId=${keyId || ""}` +
         `&key=${key || ""}` +
-        `&name=${encodeURIComponent(displayName)}`;
+        `&name=${encodeURIComponent(name || "")}`;
 
-      // ✅ FIXED HERE (NO encoding)
       if (cookie) {
         finalLink += `&cookie=${cookie}`;
       }
 
       return {
-        name: displayName,
-        id,
-        logo: tvg_logo,
-        group: group_title,
+        name: name || "",
+        id: id || "",
+        logo: logo || "",
+        group: category || "",
         link: finalLink
       };
     })
@@ -76,7 +64,9 @@ async function main() {
     JSON.stringify(result, null, 4)
   );
 
-  console.log("✅ output.json generated successfully");
+  console.log(
+    `✅ output.json generated successfully. ${channels.length} channels processed.`
+  );
 }
 
 main().catch((err) => {

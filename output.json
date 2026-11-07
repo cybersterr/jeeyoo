@@ -8814,11 +8814,11 @@
             "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/4250206_english_hls_e26adb95b447719_1ta-di_h264/1080p.m3u8&keyId=&key=&name=2026%20%5BEnglish%5D"
         },
         {
-            "name": "ATP Masters - Rolex Paris Masters 2026 [English]",
-            "id": "atp-masters---rolex-paris-masters-2026--english-",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg",
+            "name": "World Wide Technology Championship 2026 [English]",
+            "id": "world-wide-technology-championship-2026--english-",
+            "logo": "https://www.fancode.com/skillup-uploads/cms-media/World-Wide-Technology-Championship_Web-match-card_1793992817308.png",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/4250570_english_hls_f720fe25b588128_1ta-di_h264/1080p.m3u8&keyId=&key=&name=ATP%20Masters%20-%20Rolex%20Paris%20Masters%202026%20%5BEnglish%5D"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/4250599_english_hls_688a7793522084_1ta-di_h264/1080p.m3u8&keyId=&key=&name=World%20Wide%20Technology%20Championship%202026%20%5BEnglish%5D"
         },
         {
             "name": "ENG | West Indies A Vs England Lions",
@@ -8828,74 +8828,46 @@
             "link": "https://dashproxy.droozy.workers.dev/?url=https://dai-fancode.pages.dev/mumbai/4250206_english_hls_e26adb95b447719_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/&keyId=&key=&name=ENG%20%7C%20West%20Indies%20A%20Vs%20England%20Lions"
         },
         {
-            "name": "[DRM] ENG | Valencia Cf Vs Real Madrid",
-            "id": "4247682",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/4247682_53004_VAL_RM_FC-Web.png",
+            "name": "ENG | Day 3",
+            "id": "4250599",
+            "logo": "https://www.fancode.com/skillup-uploads/cms-media/World-Wide-Technology-Championship_Web-match-card_1793992817308.png",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/4247682_english_dash_61860_1drmta-di_h264/index.mpd&keyId=&key=&name=%5BDRM%5D%20ENG%20%7C%20Valencia%20Cf%20Vs%20Real%20Madrid"
-        },
-        {
-            "name": "ENG | Court Central",
-            "id": "4250570",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://dai-fancode.pages.dev/mumbai/4250570_english_hls_f720fe25b588128_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/&keyId=&key=&name=ENG%20%7C%20Court%20Central"
-        },
-        {
-            "name": "[DRM] ENG | Qualifying",
-            "id": "139515",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/F1_Sao-Paulo_web_1793258815657.jpg",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/139515_english_dash_94147_1drmta-di_h264/index.mpd&keyId=&key=&name=%5BDRM%5D%20ENG%20%7C%20Qualifying"
-        },
-        {
-            "name": "[DRM] ENG | Ca Osasuna Vs Athletic Club",
-            "id": "4247680",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/4247680_53004_OSN_ATH_FC-Web.png",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://in-mc-flive.fancode.com/mumbai/4247680_english_dash_783_1drmta-di_h264/index.mpd&keyId=&key=&name=%5BDRM%5D%20ENG%20%7C%20Ca%20Osasuna%20Vs%20Athletic%20Club"
-        },
-        {
-            "name": "BKFC Fight Night Glasgow Prelims",
-            "id": "B0HQJPF9L5",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.be577281-fc68-4b8e-b4cf-dde5a0fda759/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lbgomzfdel/out/v1/99687c04728943498f884d9bf6a0c837/cenc.mpd&keyId=1918ddf008413696077e06138983c5f9&key=2d66e0d80ca9ac6ad8b8c230a97f74b4&name=BKFC%20Fight%20Night%20Glasgow%20Prelims"
-        },
-        {
-            "name": "North Carolina A&T vs. Monmouth Hawks",
-            "id": "B0HPK5G1HQ",
-            "logo": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0cd7d59f-6a11-4c4b-9143-de482f65fc45/4/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd&keyId=7b87c59bba50e62ca4fef8ba2f79b99a&key=417b7577df2477d1842a4bb9eee852bc&name=North%20Carolina%20A%26T%20vs.%20Monmouth%20Hawks"
-        },
-        {
-            "name": "Bassmaster Redfish Cup at Port Aransas",
-            "id": "B0HM7N447W",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.e7dfd46d-5b94-4fa8-91f0-0bf32de6a7da/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
-            "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qy6usrjqzw/out/v1/48d0ffdc0c354fc8bf9b565c245d0f07/cenc.mpd&keyId=ad6e7091d1d36a16d5475bdb2d900888&key=8c67e6b1e4bcf1ee1f12167526ef2503&name=Bassmaster%20Redfish%20Cup%20at%20Port%20Aransas"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://dai-fancode.pages.dev/mumbai/4250599_english_hls_688a7793522084_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/&keyId=&key=&name=ENG%20%7C%20Day%203"
         },
         {
             "name": "BKFC 96 Glasgow: Weir vs. Cohoon",
             "id": "B0HMJSFWGC",
             "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.8e616846-fbef-424a-bba6-80c82f96ff01/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd&keyId=fa5e8db5359fc7d1f15207d5de2a3ac4&key=78a6c0a41972dfdba2145ae0ad4bd681&name=BKFC%2096%20Glasgow%3A%20Weir%20vs.%20Cohoon"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3mtc7phj2/out/v1/a48ab8dfd51c4d1f9a08774b3cd4c49e/cenc.mpd&keyId=fa5e8db5359fc7d1f15207d5de2a3ac4&key=78a6c0a41972dfdba2145ae0ad4bd681&name=BKFC%2096%20Glasgow%3A%20Weir%20vs.%20Cohoon"
         },
         {
-            "name": "Robert Morris vs. Duquesne",
-            "id": "B0H28TL4XC",
-            "logo": "https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.bb524331-00f7-4cdd-990e-23a2fb038314/4/BOXART-16X9/en-US/1920x1080._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMpng_.png",
+            "name": "Baldwin Wallace vs Mount Union - Football",
+            "id": "B0HNVR5DXN",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.736cb0fa-d800-4f04-a9a1-0fbe85c562a1/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd&keyId=6670dbc6eb97a1c7fc6395d952fb00b7&key=72a3574c534811db5a4804695a184221&name=Robert%20Morris%20vs.%20Duquesne"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5sxp9uvyez/out/v1/4484a71af5204219a7881175306e68a9/cenc.mpd&keyId=7b87c59bba50e62ca4fef8ba2f79b99a&key=417b7577df2477d1842a4bb9eee852bc&name=Baldwin%20Wallace%20vs%20Mount%20Union%20-%20Football"
         },
         {
-            "name": "Season 2026",
-            "id": "B0HKCDLXNQ",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.0c734b93-3b7b-4137-a8c7-45dbb7cecedc/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "name": "Colorado School of Mines at Western Colorado",
+            "id": "B0HNPQJLTZ",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.be0535a5-02e3-40b1-ab12-332832c63926/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ugvo0vho9p/out/v1/fc7d1d525ec34aa589a2f02f40c92791/cenc.mpd&keyId=dfa8e3854cb8ae706b7b28f22b16cbe2&key=c8dad1be3999d0aee9bf702316a03f6b&name=Season%202026"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd&keyId=6670dbc6eb97a1c7fc6395d952fb00b7&key=72a3574c534811db5a4804695a184221&name=Colorado%20School%20of%20Mines%20at%20Western%20Colorado"
+        },
+        {
+            "name": "NASCAR Local Racing Series-LIVE: Fall Brawl at Hickory Motor Speedway",
+            "id": "B0HQ4KYCHH",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.2668f3cf-4b0d-40a0-a131-4b13c59679a7/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "group": "LIVE SPORTS | STREAMX",
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd&keyId=e14535ab02e4065cc846047f1feee48d&key=a51c5c164f9a6b0ae751afeec7f85052&name=NASCAR%20Local%20Racing%20Series-LIVE%3A%20Fall%20Brawl%20at%20Hickory%20Motor%20Speedway"
+        },
+        {
+            "name": "US Saint-Malo vs. Olympique de Marseille",
+            "id": "B0HPTH39VB",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.e494ed84-f9c6-4f70-bf61-9e6d64c7368e/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "group": "LIVE SPORTS | STREAMX",
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd&keyId=dfa8e3854cb8ae706b7b28f22b16cbe2&key=c8dad1be3999d0aee9bf702316a03f6b&name=US%20Saint-Malo%20vs.%20Olympique%20de%20Marseille"
         },
         {
             "name": "PPA Tour: World Championships-2026: Semifinals",
@@ -8905,32 +8877,46 @@
             "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd&keyId=2be100252a42be3a17d29c93e28eaacc&key=07c5e72df3602e9652dd06d839776e72&name=PPA%20Tour%3A%20World%20Championships-2026%3A%20Semifinals"
         },
         {
-            "name": "US Open Netball Champs",
-            "id": "B0HPH4JCVW",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.a988e642-1d8d-43cd-aee2-4f58f7056081/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "name": "AHA Hockey: RIT vs Robert Morris - Women's",
+            "id": "B0HNWWFQ5P",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.f2bfba1c-f0f7-426e-9e1c-b7659cbd6f37/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd&keyId=5d6c647cd1b56550bd34349b68ec8c82&key=09f952780ba5b30bc222439aaa3ac09b&name=US%20Open%20Netball%20Champs"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kxpg5rl6v6/out/v1/8f60215ae257441e8b1cbe44c31839b1/cenc.mpd&keyId=b74568d74a6d7f5d2a07d903f820cdb1&key=ea92e2f4ec746aa5e64fd9c4fc6ed3e9&name=AHA%20Hockey%3A%20RIT%20vs%20Robert%20Morris%20-%20Women's"
         },
         {
             "name": "Triton Poker ONE Series Cyprus-$3K QQPK Genesis",
             "id": "B0HQB5DQNS",
             "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.7100337b-67bc-4e19-8ee5-d68944d35cdf/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znpxp4vhyl/out/v1/2a14edb0fa434870a70679d37f5f013c/cenc.mpd&keyId=0bd0136d2728be3d6506cfe054a3fd59&key=27ae4995704be63440c0dcb001b2abbd&name=Triton%20Poker%20ONE%20Series%20Cyprus-%243K%20QQPK%20Genesis"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znpxp4vhyl/out/v1/2a14edb0fa434870a70679d37f5f013c/cenc.mpd&keyId=0bd0136d2728be3d6506cfe054a3fd59&key=27ae4995704be63440c0dcb001b2abbd&name=Triton%20Poker%20ONE%20Series%20Cyprus-%243K%20QQPK%20Genesis"
         },
         {
-            "name": "Cricket Review-USA Seniors Cricket NPL 2026 - Austin Hunters vs NY X-Factor - 10th Match",
-            "id": "B0HP697GQR",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.5dfad51a-8d53-4f00-a625-a54975148b76/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "name": "US Open Netball Champs",
+            "id": "B0HPH4JCVW",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.a988e642-1d8d-43cd-aee2-4f58f7056081/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd&keyId=290e09c837da78d5cd961978d390515c&key=b748836c71e6a4ca68ef5b5652db6247&name=Cricket%20Review-USA%20Seniors%20Cricket%20NPL%202026%20-%20Austin%20Hunters%20vs%20NY%20X-Factor%20-%2010th%20Match"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd&keyId=5d6c647cd1b56550bd34349b68ec8c82&key=09f952780ba5b30bc222439aaa3ac09b&name=US%20Open%20Netball%20Champs"
         },
         {
-            "name": "Paris-ATP-Doubles Semifinal 2",
-            "id": "B0HMNTNBV7",
-            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.699c46b5-6a83-449b-8ecb-fa4c4a49341d/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "name": "France v Fiji",
+            "id": "B0HLD4NGPC",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.5bbb09b8-37bf-4916-af30-d2d578d73c04/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
             "group": "LIVE SPORTS | STREAMX",
-            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd&keyId=59f50679c9e60963bd0cb6640992aaaa&key=8685817c4d31f322e08940feeae2855a&name=Paris-ATP-Doubles%20Semifinal%202"
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd&keyId=63a084a354d126bcd099c9eabf0cbb93&key=bd2b00bce574c33af46d0538937b3ac3&name=France%20v%20Fiji"
+        },
+        {
+            "name": "Dallas Lions vs. Washington Eagles",
+            "id": "B0HN35D85Q",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.9be817e1-a462-46f1-a212-9c226c0b1938/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg",
+            "group": "LIVE SPORTS | STREAMX",
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd&keyId=290e09c837da78d5cd961978d390515c&key=b748836c71e6a4ca68ef5b5652db6247&name=Dallas%20Lions%20vs.%20Washington%20Eagles"
+        },
+        {
+            "name": "USA Seniors Cricket NPL 2026 - 11th Match - Dallas Lions vs Washington Eagles",
+            "id": "B0HP7FT9BH",
+            "logo": "https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.8095dec5-941f-4dd7-92b2-8907dc4c1a0f/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg",
+            "group": "LIVE SPORTS | STREAMX",
+            "link": "https://dashproxy.droozy.workers.dev/?url=https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bavegcowgs/out/v1/4259a62d6ce64c64be19fb459706845e/cenc.mpd&keyId=98111885a79086776bb728e6fd3653fb&key=90607b9306ef853a6dbf34142e41ef24&name=USA%20Seniors%20Cricket%20NPL%202026%20-%2011th%20Match%20-%20Dallas%20Lions%20vs%20Washington%20Eagles"
         }
     ]
 }
